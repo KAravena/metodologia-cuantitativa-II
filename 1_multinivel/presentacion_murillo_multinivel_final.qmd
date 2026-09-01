@@ -1,0 +1,241 @@
+---
+lang: es
+format:
+  revealjs:
+    theme: simple
+    css: murillo_editorial_final.css
+    width: 1600
+    height: 900
+    margin: 0
+    center: false
+    controls: false
+    progress: true
+    slide-number: true
+    transition: fade
+    background-transition: none
+    auto-stretch: false
+    navigation-mode: linear
+execute:
+  echo: false
+---
+
+## {.cover}
+
+Murillo, 2008
+
+Los modelos multinivel
+
+como herramienta para la
+
+investigación educativa
+
+Katherine Aravena  
+Cuanti II · 2026
+
+¿Qué cambia cuando analizamos estudiantes y contextos al mismo tiempo?
+
+<!-- NOTAS: Como el funcionamiento del modelo acaba de ser revisado, la presentación se concentra en qué cambia para una investigación educativa cuando reconocemos que estudiantes, aulas y escuelas forman parte de una misma estructura. Tiempo: 25 segundos. Transición: el punto de partida de Murillo está en cómo se organizan los datos educativos. -->
+
+## Estudiantes, aulas y escuelas {.hierarchy}
+
+SISTEMA EDUCATIVO
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ESCUELA
+
+━━━━━━━━━━━━━━━━━━━━
+
+AULA
+
+━━━━━━━━━━━━
+
+●   ●   ●   ●   ●  
+estudiantes
+
+Los estudiantes de una misma escuela comparten condiciones que pueden producir semejanzas en sus resultados.
+
+Murillo describe datos educativos organizados en niveles: alumnos, aulas, centros y contextos más amplios.
+
+<!-- NOTAS: Explicar brevemente que estudiantes de una misma escuela comparten docentes, recursos, normas, clima institucional y experiencias. Pregunta breve al curso: dos estudiantes con características similares estudian en escuelas distintas, ¿esperaríamos necesariamente el mismo rendimiento? Recuperar la idea de contexto compartido. Tiempo: 60 segundos. Transición: si comparten contexto, aparece un problema cuando analizamos como si ese contexto no existiera. -->
+
+## ¿Qué ocurre cuando ignoramos los niveles? {.numbered-slide}
+
+01
+
+Solo individuos
+
+Se ignora la dependencia entre quienes comparten contexto.
+
+Falacia atomística
+
+02
+
+Solo promedios
+
+Se pierde variación individual y se trasladan características del contexto al estudiante.
+
+Falacia ecológica
+
+El problema no es solo técnico. También cambia la explicación educativa que consideramos plausible.
+
+<!-- NOTAS: Explicar que analizar individuos como independientes puede subestimar errores estándar y mezclar niveles de análisis. Agregar que analizar solo promedios escolares pierde información individual y puede llevar a atribuir al estudiante características del contexto. Mencionar la correlación intraclase solo como puente con la clase anterior. Tiempo: 55 segundos. Transición: la alternativa no es elegir entre estudiante o escuela, sino considerar ambos niveles. -->
+
+## La solución: analizar niveles simultáneamente {.solution-slide}
+
+No elegir entre estudiante o escuela.
+
+Analizar ambos niveles al mismo tiempo.
+
+| Estudiante | Escuela |
+|---|---|
+| SES familiar | composición social |
+| género | clima escolar |
+| trayectoria | titularidad y recursos |
+
+Resultado educativo
+
+Tanto los individuos como los contextos pueden producir diferencias.
+
+<!-- NOTAS: Explicar que el multinivel resuelve el dilema entre analizar estudiantes o analizar escuelas. Permite estudiar características individuales asociadas al rendimiento, características del contexto asociadas al rendimiento y la combinación entre ambos niveles. No explicar ecuaciones. Tiempo: 55 segundos. Transición: para entender qué hace técnicamente sin repetir la clase, basta con cuatro ideas muy breves. -->
+
+## Una capa técnica mínima {.tech-slide}
+
+Modelo nulo
+
+observa la variación inicial
+
+Intercepto aleatorio
+
+escuelas con promedios distintos
+
+Pendiente aleatoria
+
+relaciones con distinta intensidad
+
+Interacción internivel
+
+el contexto modifica una relación individual
+
+<!-- NOTAS: Esta slide es solo un puente. Modelo nulo: punto de referencia para ver cómo se distribuye la variación. Intercepto aleatorio: permite que las escuelas tengan diferentes niveles promedio. Pendiente aleatoria: permite que una relación individual no tenga la misma intensidad en todas las escuelas. Interacción internivel: pregunta si una característica del contexto explica parte de esa variación. No desarrollar fórmulas. Tiempo: 60 segundos. Transición: Murillo usa esta lógica en un estudio concreto de rendimiento matemático. -->
+
+## ¿Qué intenta explicar Murillo? {.example-slide}
+
+Rendimiento matemático
+
+| Estudiante | Escuela y aula |
+|---|---|
+| SES familiar | SES de la escuela |
+| preescolarización | clima |
+| género | recursos |
+
+Variación inicial → variables → variación explicada
+
+La pregunta no es solo qué variables entran, sino cuánto de la variación queda explicada en cada nivel.
+
+<!-- NOTAS: Explicar que Murillo utiliza un estudio de eficacia escolar y que el ejemplo busca ilustrar el proceso de modelización. Mencionar oralmente que también aparecen variables como experiencia docente, número de repetidores, tamaño y titularidad. Cautela: aquí hablamos de asociaciones y varianza explicada, no de causalidad automática. Tiempo: 65 segundos. Transición: la pregunta entonces es dónde logra explicar más el modelo final. -->
+
+## El modelo explica especialmente diferencias entre escuelas {.result-focus}
+
+48,85 %
+
+de la varianza entre centros queda explicada en el modelo final.
+
+18,90 % de la varianza total  
+6,02 % de la varianza entre alumnos
+
+Cada porcentaje tiene su propia varianza de referencia. No suman 100 %.
+
+Murillo (2008, Tabla 12)
+
+<!-- NOTAS: Explicar que las escuelas no muestran exactamente los mismos resultados y que el modelo final logra explicar cerca de la mitad de esa variación entre centros. Aclarar que el 6,02 % no significa que los estudiantes importen poco, sino que esta especificación explica menos variación individual porque el estudio está orientado a factores de aula y escuela. No explicar fórmulas de R2. Tiempo: 75 segundos. Transición: pero el multinivel no solo permite ver cuánto difieren las escuelas; también permite preguntar si las relaciones cambian entre ellas. -->
+
+## ¿Las relaciones son iguales en todas las escuelas? {.heterogeneity-slide}
+
+No necesariamente.
+
+Género
+
+promedio general no significativo; relación variable entre centros
+
+Titularidad × SES
+
+la relación SES–rendimiento cambia según el tipo de centro
+
+El contexto puede modificar una relación individual.
+
+<!-- NOTAS: Explicar con cuidado: no encontrar una diferencia promedio general entre hombres y mujeres no significa que la relación género-rendimiento sea igual en todos los centros. Puede ser más fuerte en algunas escuelas, más débil en otras o tener patrones distintos. Luego conectar con la interacción titularidad × SES: no se pregunta solo si SES importa o si titularidad importa, sino si la relación SES-rendimiento cambia según la titularidad. Esto distingue heterogeneidad e interacción internivel. No mostrar coeficientes ni interpretar causalmente. Tiempo: 75 segundos. Transición: estas ideas abren preguntas sustantivas más amplias sobre investigación educativa. -->
+
+## ¿Qué nuevas preguntas permite formular? {.questions-slide}
+
+¿Dónde están las diferencias?
+
+estudiantes · escuelas
+
+¿Cambian las relaciones según el contexto?
+
+heterogeneidad · efectos diferenciales
+
+¿Qué características del contexto modifican esas relaciones?
+
+interacciones internivel
+
+¿Qué aporta una escuela considerando sus condiciones de partida?
+
+eficacia · valor agregado · equidad
+
+<!-- NOTAS: Explicar que esta es la parte sustantiva del paper. No se trata solo de una técnica: permite estudiar diferencias contextuales, heterogeneidad, interacciones individuo-contexto y múltiples contextos. Mencionar que estos aportes se traducen en preguntas sobre eficacia escolar, valor agregado y equidad. Tiempo: 60 segundos. Transición: para que eficacia, valor agregado y equidad no queden como palabras sueltas, conviene precisar qué significan. -->
+
+## Eficacia, valor agregado y equidad {.equity-slide}
+
+Una escuela con promedio más alto no es automáticamente más eficaz.
+
+Eficacia
+
+¿qué aporta la escuela?
+
+Valor agregado
+
+¿qué aporta considerando condiciones de partida?
+
+Equidad
+
+¿funciona igual para distintos grupos de estudiantes?
+
+<!-- NOTAS: Explicar que las escuelas reciben estudiantes con características, SES, rendimientos previos y contextos distintos. El valor agregado intenta aproximarse al aporte del establecimiento considerando esas condiciones. La equidad pregunta si la escuela funciona de modo semejante para distintos grupos o si beneficia más a unos que a otros. Tiempo: 65 segundos. Transición: esta lógica permite formular preguntas concretas sobre educación chilena. -->
+
+## Una pregunta educativa chilena {.chile-slide}
+
+¿La asociación entre SES familiar y rendimiento matemático cambia según la composición socioeconómica de la escuela?
+
+| Estudiante | Escuela | Resultado |
+|---|---|---|
+| SES familiar | composición socioeconómica | rendimiento matemático |
+
+SES individual y composición escolar no son lo mismo.
+
+Ejemplo de aplicación contemporánea. No corresponde a un resultado empírico de Murillo.
+
+<!-- NOTAS: Explicar que una cosa es el SES del estudiante y otra el SES promedio o composición socioeconómica del establecimiento. El modelo permite estudiar ambas dimensiones y además preguntar si el contexto modifica la relación individual. Mencionar solo oralmente otros ejemplos posibles: ansiedad matemática y rendimiento según clima escolar; expectativas universitarias según clima académico. Tiempo: 65 segundos. Transición: esto nos lleva a una pregunta más general sobre cómo interpretamos los resultados de las escuelas. -->
+
+## Cuando una escuela obtiene mejores resultados, {.question-slide}
+
+¿podemos concluir que enseña mejor?
+
+¿Qué otra explicación sería posible?
+
+Composición del alumnado · condiciones previas · recursos · selección
+
+<!-- NOTAS: Esperar 10 a 15 segundos y pedir dos o tres respuestas. Recuperar composición de estudiantes, recursos, condiciones previas, selección y contexto. Conectar con valor agregado: no basta comparar resultados brutos, hay que considerar quiénes estudian allí y desde dónde parten. Cautela: esto mejora la comparación, pero no convierte automáticamente la estimación en causal. Tiempo: 70 segundos. Transición: podemos cerrar recuperando las tres ideas que sostienen todo el texto. -->
+
+## Tres ideas para cerrar {.closing-slide}
+
+01  Los datos educativos están organizados en distintos niveles.
+
+02  Parte de la variación está entre contextos, y las relaciones también pueden cambiar.
+
+03  El multinivel permite estudiar eficacia, valor agregado y equidad considerando individuos y contextos.
+
+Murillo Torrecilla, F. J. (2008). *Los modelos multinivel como herramienta para la investigación educativa*. Magis, 1, 45-62.
+
+<!-- NOTAS: Cerrar diciendo que el aporte del artículo no consiste solamente en usar una técnica más compleja, sino en analizar estudiantes y contextos como partes del mismo fenómeno educativo. Esto permite estudiar dónde están las diferencias, si las relaciones cambian entre contextos y qué se puede atribuir estadísticamente a distintos niveles. Tiempo: 35 segundos. -->
