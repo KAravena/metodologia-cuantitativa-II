@@ -732,3 +732,47 @@
   border-top: none;
   padding-top: 12px;
 }
+
+/* Slide: aplicación educativa */
+.chile-slide table {
+  width: 100%;
+  margin-top: 3.2rem;
+  margin-bottom: 2.2rem;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.chile-slide table th,
+.chile-slide table td {
+  width: 33.333%;
+  text-align: left;
+  vertical-align: top;
+  border: none;
+  background: transparent;
+  padding: 0 2.5rem 0 0;
+}
+
+.chile-slide table th {
+  font-size: 0.72em;
+  font-weight: 650;
+  color: #172033;
+  padding-bottom: 0.45rem;
+}
+
+.chile-slide table td {
+  font-size: 0.82em;
+  color: #536276;
+  line-height: 1.3;
+}
+
+.chile-slide table tbody tr {
+  border: none;
+}
+
+.chile-slide table tr {
+  border: none;
+}
+
+.chile-slide em {
+  color: #738095;
+}

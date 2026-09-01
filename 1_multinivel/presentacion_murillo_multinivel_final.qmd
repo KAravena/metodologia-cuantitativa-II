@@ -29,8 +29,8 @@ como herramienta para la
 
 investigación educativa
 
-Katherine Aravena  
-Cuanti II · 2026
+Katherine Aravena H.  
+Metodología cuantitativa II · 2026
 
 ¿Qué cambia cuando analizamos estudiantes y contextos al mismo tiempo?
 
@@ -204,17 +204,16 @@ Equidad
 
 <!-- NOTAS: Explicar que las escuelas reciben estudiantes con características, SES, rendimientos previos y contextos distintos. El valor agregado intenta aproximarse al aporte del establecimiento considerando esas condiciones. La equidad pregunta si la escuela funciona de modo semejante para distintos grupos o si beneficia más a unos que a otros. Tiempo: 65 segundos. Transición: esta lógica permite formular preguntas concretas sobre educación chilena. -->
 
-## Una pregunta educativa chilena {.chile-slide}
+## Si dos estudiantes tienen el mismo origen socioeconómico {.chile-slide}
 
-¿La asociación entre SES familiar y rendimiento matemático cambia según la composición socioeconómica de la escuela?
+¿por qué ese origen podría pesar de manera distinta según la escuela a la que asisten?
 
-| Estudiante | Escuela | Resultado |
-|---|---|---|
+| **Nivel estudiante** | **Nivel escuela** | **Resultado** |
+|:---------------------|:------------------|:--------------|
 | SES familiar | composición socioeconómica | rendimiento matemático |
 
-SES individual y composición escolar no son lo mismo.
+La pregunta multinivel es si **una relación individual cambia según el contexto escolar**.
 
-Ejemplo de aplicación contemporánea. No corresponde a un resultado empírico de Murillo.
 
 <!-- NOTAS: Explicar que una cosa es el SES del estudiante y otra el SES promedio o composición socioeconómica del establecimiento. El modelo permite estudiar ambas dimensiones y además preguntar si el contexto modifica la relación individual. Mencionar solo oralmente otros ejemplos posibles: ansiedad matemática y rendimiento según clima escolar; expectativas universitarias según clima académico. Tiempo: 65 segundos. Transición: esto nos lleva a una pregunta más general sobre cómo interpretamos los resultados de las escuelas. -->
 
